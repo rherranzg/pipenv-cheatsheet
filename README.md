@@ -8,7 +8,7 @@
 
 | Commands         | Description | 
 |:-----------------|:------------|
-| `pipenv install` | Installs from a `Pipfile`. If there's no Pipfile, creates one and generates the basic skeleton |
+| `pipenv install` | Installs packages from the `Pipfile`. If there's no Pipfile, creates one and generates the basic skeleton |
 | `pipenv install <package>` | Installs a package. Rather than using raw `pip`, `pipenv` will be used. This will install the package into the virtualenv, and will add it to the `Pipfile`. |
 | `pipenv install <package> --dev` | Installs a dev package |
 | `pipenv lock` | Regenerates `Pipenv.lock` file |
